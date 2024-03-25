@@ -1,0 +1,75 @@
+.plan-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 45%;
+}
+
+.plan-content h1 {
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 0;
+}
+
+.plan-content p {
+  color: hsl(212, 25%, 80%);
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.plan-content .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-content .boxes .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid hsl(212, 25%, 80%);
+  padding: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 80px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.plan-content .boxes .box h5 {
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 0px;
+  
+}
+
+.plan-content .boxes .box p {
+  margin-top: 2px;
+  font-weight: 200;
+}
+
+.plan-content .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-content .buttons .btn{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 25%;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(243, 100%, 62%);
+}
+
+.plan-content .buttons .back{
+    background-color: white;
+    color: hsl(213, 96%, 18%);
+}

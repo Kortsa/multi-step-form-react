@@ -1,0 +1,51 @@
+.infos-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  /* width: 85%; */
+}
+
+.infos-content h1 {
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 0;
+}
+
+.infos-content p {
+  color: hsl(212, 25%, 80%);
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.infos-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.infos-content form label {
+  margin-bottom: 5px;
+  color: hsl(213, 96%, 18%);
+}
+
+.infos-content form input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid hsl(212, 25%, 80%);
+  outline: none;
+  margin-bottom: 25px;
+}
+
+.infos-content .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 25%;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(243, 100%, 62%);
+}
